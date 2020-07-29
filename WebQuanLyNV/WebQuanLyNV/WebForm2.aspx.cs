@@ -22,7 +22,7 @@ namespace WebQuanLyNV
         {
             DataSet data = new DataSet();
             //sqlconnection
-            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-HLP3PO9;Initial Catalog=QuanLyNV;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-GHQ5FL8\SQLEXPRESS;Initial Catalog=QuanLyNV;Integrated Security=True");
             string sqlQuery = "select * from QuanLyNV.dbo.NhanVien where [Email cá nhân] ='" + WebForm1.TK_Login + "'" + " and [mat khau]='" + WebForm1.MK_Login + "'";
             conn.Open();
             SqlDataAdapter adp = new SqlDataAdapter(sqlQuery, conn);

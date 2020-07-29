@@ -13,7 +13,7 @@ namespace WebQuanLyNV
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-HLP3PO9;Initial Catalog=QuanLyNV;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-GHQ5FL8\SQLEXPRESS;Initial Catalog=QuanLyNV;Integrated Security=True");
 
         public int Dem=0;
 

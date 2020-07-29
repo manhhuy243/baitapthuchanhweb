@@ -31,3 +31,36 @@ C:\Users\kb\documents\visual studio 2015\Projects\WebQuanLyNV\WebQuanLyNV\bin\Mi
 C:\Users\kb\documents\visual studio 2015\Projects\WebQuanLyNV\WebQuanLyNV\obj\Debug\WebQuanLyNV.csprojResolveAssemblyReference.cache
 C:\Users\kb\documents\visual studio 2015\Projects\WebQuanLyNV\WebQuanLyNV\obj\Debug\WebQuanLyNV.dll
 C:\Users\kb\documents\visual studio 2015\Projects\WebQuanLyNV\WebQuanLyNV\obj\Debug\WebQuanLyNV.pdb
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\ApplicationInsights.config
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\csc.exe
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\System.Collections.Immutable.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\System.Reflection.Metadata.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\vbc.exe
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\VBCSCompiler.exe
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\roslyn\VBCSCompiler.exe.config
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\WebQuanLyNV.dll.config
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\WebQuanLyNV.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\WebQuanLyNV.pdb
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.Agent.Intercept.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.DependencyCollector.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.Web.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.WindowsServer.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.ApplicationInsights.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.DependencyCollector.xml
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.Web.xml
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.AI.WindowsServer.xml
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.ApplicationInsights.xml
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\obj\Debug\WebQuanLyNV.csprojResolveAssemblyReference.cache
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\obj\Debug\WebQuanLyNV.dll
+F:\baitapthuchanhweb-master\baitapthuchanhweb-master\WebQuanLyNV\WebQuanLyNV\obj\Debug\WebQuanLyNV.pdb

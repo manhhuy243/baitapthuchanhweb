@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm3.aspx.cs" Inherits="WebQuanLyNV.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm3.aspx.cs" Inherits="WebQuanLyNV.WebForm3" EnableEventValidation = "false" %>
 
 <!DOCTYPE html>
 
@@ -8,13 +8,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    <asp:DataGrid CssClass="Grid" ID="grNV" runat="server" PagerStyle-CssClass="pgr" AlternatingRowStyle-CssClass="alt"></asp:DataGrid>
-        
-    </div>
         <div>
-            <asp:Button runat="server" ID="btnCreate" Text="tao tai khoan"/>
-            <asp:Button ID="btnDeleted" runat="server"  Text="Xoa" />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="true" OnRowDataBound="OnRowDataBound" OnSelectedIndexChanged="OnSelectedIndexChanged">
+            </asp:GridView>
+        </div>
+        <div>
+            <asp:Button runat="server" ID="btnCreate" Text="tao tai khoan" />
+            <asp:Button ID="btnDeleted" runat="server" Text="Xoa" />
         </div>
     </form>
 </body>
