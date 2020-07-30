@@ -10,8 +10,8 @@
     <form id="form1" runat="server">
         <div>
             <div>
-                <asp:Button runat="server" ID="btnCreate" Text="tao tai khoan" Style="margin-bottom: 0px" />
-                <asp:Button ID="btnEdit" runat="server" Text="Button" />
+                <asp:Button runat="server" ID="btnCreate" Text="tao tai khoan" Style="margin-bottom: 0px" OnClick="btnCreate_Click" />
+                <asp:Button ID="btnEdit" runat="server" Text="edit" OnClick="btnEdit_Click" />
                 <asp:Button ID="btnDeleted" runat="server" Text="Xoa" OnClick="btnDeleted_Click" />
             </div>
             <div>

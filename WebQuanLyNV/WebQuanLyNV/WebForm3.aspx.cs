@@ -13,8 +13,8 @@ namespace WebQuanLyNV
     public partial class WebForm3 : System.Web.UI.Page
     {
 
-        string email;
-        string stt;
+        public static string email;
+        public static string stt;
         protected void Page_Load(object sender, EventArgs e)
         {
                 GridView1.DataSource = GetNV();
@@ -27,10 +27,11 @@ namespace WebQuanLyNV
         {
             DataSet data = new DataSet();
             //sqlconnection
-            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-HLP3PO9;Initial Catalog=QuanLyNV;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-GHQ5FL8\SQLEXPRESS;Initial Catalog=QuanLyNV;Integrated Security=True");
             string sqlQuery = "select * from QuanLyNV.dbo.NhanVien";
-            conn.Open();
+            
             SqlDataAdapter adp = new SqlDataAdapter(sqlQuery, conn);
+            conn.Open();
             adp.Fill(data);
             conn.Close();
 
@@ -45,7 +46,7 @@ namespace WebQuanLyNV
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
                 e.Row.Attributes["onclick"] = Page.ClientScript.GetPostBackClientHyperlink(GridView1, "Select$" + e.Row.RowIndex);
-                e.Row.ToolTip = "Click to select this row.";
+                e.Row.ToolTip = "nha chuot phai de chon hang nay";
             }
         }
 
@@ -53,7 +54,7 @@ namespace WebQuanLyNV
         {
             email= GridView1.SelectedRow.Cells[29].Text;
             stt = GridView1.SelectedRow.Cells[0].Text;
-            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-HLP3PO9;Initial Catalog=QuanLyNV;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-GHQ5FL8\SQLEXPRESS;Initial Catalog=QuanLyNV;Integrated Security=True");
             string sqlQuery = @"delete from QuanLyNV.dbo.NhanVien where [Email cá nhân] = '" + email + "' and [STT] = '"+ stt +"'";
             SqlCommand cmd = new SqlCommand(sqlQuery, conn);
             conn.Open();
@@ -78,6 +79,16 @@ namespace WebQuanLyNV
             //}
         }
 
+        protected void btnEdit_Click(object sender, EventArgs e)
+        {
+            email = GridView1.SelectedRow.Cells[29].Text;
+            stt = GridView1.SelectedRow.Cells[0].Text;
+            Response.Redirect("WebForm4.aspx");
+        }
 
+        protected void btnCreate_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm5.aspx");
+        }
     }
 }
